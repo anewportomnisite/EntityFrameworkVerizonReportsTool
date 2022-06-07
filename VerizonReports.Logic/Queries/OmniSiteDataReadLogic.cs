@@ -3,6 +3,7 @@ using VerizonReports.Logic.OutboundPorts;
 
 namespace VerizonReports.Logic.Queries;
 
+//Not used yet
 public class OmniSiteDataReadLogic : IOmniSiteDataReadLogic
 {
     private readonly IOmniSiteDataReadRepo _repo;
