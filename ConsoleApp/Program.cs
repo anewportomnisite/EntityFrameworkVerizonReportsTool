@@ -13,7 +13,7 @@ public static class ConsoleApp
     private static async Task Main()
     {
         await GenerateReports();
-        /*try
+        try
         {
             await GenerateReports();
         }
@@ -25,7 +25,7 @@ public static class ConsoleApp
         finally
         {
             Console.WriteLine("The program has finished");
-        }*/
+        }
     }
 
     private static List<OmniSiteMatchData> GetOmniSiteMatchData(List<IOmniSiteData> omniSiteDataList, List<VerizonData> verizonDataList)
@@ -75,24 +75,10 @@ public static class ConsoleApp
         var omniSiteDataList = await new OmniSiteDataReadRepo(new DbContextOptions<OmniSiteDbContext>()).ReadOmniSiteDataAsync();
         var verizonDataList = await new VerizonApiAdapter().PrintDictData();
 
+        //I will move these file paths to app settings later
         WriteData(omniSiteDataList, @".\OmniSiteData.txt");
         WriteData(verizonDataList, @".\VerizonData.txt");
         WriteData(GetOmniSiteMatchData(omniSiteDataList, verizonDataList), @".\OmniSiteMatchData.txt");
         WriteData(GetVerizonMatchData(verizonDataList, omniSiteDataList), @".\VerizonMatchData.txt");
-        /*
-        WriteData(omniSiteDataList, ConfigurationManager.AppSettings.Get("omniSiteDataPath") ?? throw new ArgumentNullException
-            (ConfigurationManager.AppSettings.Get("omniSiteDataPath"),"No filepath for OmniSite Data"));
-
-        WriteData(verizonDataList, ConfigurationManager.AppSettings.Get("verizonDataPath") ?? throw new ArgumentNullException
-            (ConfigurationManager.AppSettings.Get("verizonDataPath"), "No filepath for Verizon Data"));
-
-        WriteData(GetOmniSiteMatchData(omniSiteDataList, verizonDataList), ConfigurationManager.AppSettings.Get("omniSiteMatchDataPath") 
-                                                                           ?? throw new ArgumentNullException(ConfigurationManager.AppSettings.Get("OmniSiteMatchDataPath"),
-                                                                               "No filepath for OmniSiteMatch Data"));
-
-        WriteData(GetVerizonMatchData(verizonDataList, omniSiteDataList), ConfigurationManager.AppSettings.Get("verizonMatchDataPath")
-                                                                          ?? throw new ArgumentNullException(ConfigurationManager.AppSettings.Get("verizonMatchDataPath"),
-                                                                              "No filepath for VerizonMatch Data"));
-        */
     }
 }
