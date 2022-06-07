@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestApp.Data\TestApp.Data.csproj" />
-    <ProjectReference Include="..\TestApp.Domain\TestApp.Domain.csproj" />
+    <ProjectReference Include="..\TestApp.Data\VerizonReports.Repository.csproj" />
+    <ProjectReference Include="..\TestApp.Domain\VerizonReports.Models.csproj" />
   </ItemGroup>
 
 </Project>

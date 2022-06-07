@@ -1,4 +1,4 @@
-﻿namespace TestApp.Domain;
+﻿namespace VerizonReports.Models;
 
 public class VerizonData
 {

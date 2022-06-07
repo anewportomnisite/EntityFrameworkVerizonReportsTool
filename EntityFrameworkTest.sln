@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32428.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Domain", "TestApp.Domain\TestApp.Domain.csproj", "{A951431D-8CCB-4474-AB3B-E591AA472C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerizonReports.Models", "TestApp.Domain\VerizonReports.Models.csproj", "{A951431D-8CCB-4474-AB3B-E591AA472C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Data", "TestApp.Data\TestApp.Data.csproj", "{40000588-A1CD-4E35-BA6B-E09B829D782B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerizonReports.Repository", "TestApp.Data\VerizonReports.Repository.csproj", "{40000588-A1CD-4E35-BA6B-E09B829D782B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{1F5B74A0-16E1-47ED-85E0-1F47A2C8587F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerizonReports", "ConsoleApp\VerizonReports.csproj", "{1F5B74A0-16E1-47ED-85E0-1F47A2C8587F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2812768-9ECA-4D1D-9071-AE73C232F2FF} = {D2812768-9ECA-4D1D-9071-AE73C232F2FF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{52BC30C8-BFD2-45E7-A06D-15B7CAC4B0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{52BC30C8-BFD2-45E7-A06D-15B7CAC4B0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerizonReports.Logic", "VerizonReports.Logic\VerizonReports.Logic.csproj", "{D2812768-9ECA-4D1D-9071-AE73C232F2FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{52BC30C8-BFD2-45E7-A06D-15B7CAC4B0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BC30C8-BFD2-45E7-A06D-15B7CAC4B0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BC30C8-BFD2-45E7-A06D-15B7CAC4B0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2812768-9ECA-4D1D-9071-AE73C232F2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2812768-9ECA-4D1D-9071-AE73C232F2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2812768-9ECA-4D1D-9071-AE73C232F2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2812768-9ECA-4D1D-9071-AE73C232F2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

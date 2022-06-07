@@ -1,8 +1,8 @@
-﻿using TestApp.Domain;
-using System.Data.SqlClient;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
+using VerizonReports.Models;
+using VerizonReports.Repository.Models;
 
-namespace TestApp.Data;
+namespace VerizonReports.Repository;
 
 public class OmniSiteDbAccessor
 {
@@ -26,13 +26,13 @@ public class OmniSiteDbAccessor
         {
             omniSiteData.Add(new OmniSiteData
             {
-                StationId = reader[0].ToString(),
-                UnitId = reader[1].ToString(),
+                StationId = (int?)reader[0],
+                UnitId = (int)reader[1],
                 SimNumber = reader[2].ToString(),
                 Msisdn = reader[3].ToString(),
                 Protocol = reader[4].ToString(),
                 Provider = reader[5].ToString(),
-                ProviderActive = (bool)reader[6],
+                ProviderActiveFlag = (bool)reader[6],
                 ActiveFlag = (bool)reader[7]
             });
         }
