@@ -1,5 +1,8 @@
 ﻿using System.Configuration;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using VerizonReports.Logic.Interfaces;
 using VerizonReports.Logic.Queries;
 using VerizonReports.Models;
@@ -74,11 +77,12 @@ public static class ConsoleApp
     {
         var omniSiteDataList = await new OmniSiteDataReadRepo(new DbContextOptions<OmniSiteDbContext>()).ReadOmniSiteDataAsync();
         var verizonDataList = await new VerizonApiAdapter().PrintDictData();
-
-        //I will move these file paths to app settings later
-        WriteData(omniSiteDataList, @".\OmniSiteData.txt");
-        WriteData(verizonDataList, @".\VerizonData.txt");
-        WriteData(GetOmniSiteMatchData(omniSiteDataList, verizonDataList), @".\OmniSiteMatchData.txt");
-        WriteData(GetVerizonMatchData(verizonDataList, omniSiteDataList), @".\VerizonMatchData.txt");
+        
+        WriteData(omniSiteDataList, new ConfigurationBuilder().AddJsonFile("C:..\\..\\..\\appsettings.json").Build().GetSection("filepaths")["omniSiteData"]);
+        WriteData(verizonDataList, new ConfigurationBuilder().AddJsonFile("C:..\\..\\..\\appsettings.json").Build().GetSection("filepaths")["verizonData"]);
+        WriteData(GetOmniSiteMatchData(omniSiteDataList, verizonDataList),
+            new ConfigurationBuilder().AddJsonFile("C:..\\..\\..\\appsettings.json").Build().GetSection("filepaths")["omniSiteMatchData"]);
+        WriteData(GetVerizonMatchData(verizonDataList, omniSiteDataList),
+            new ConfigurationBuilder().AddJsonFile("C:..\\..\\..\\appsettings.json").Build().GetSection("filepaths")["verizonMatchData"]);
     }
 }

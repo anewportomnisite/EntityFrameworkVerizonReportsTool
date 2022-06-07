@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VerizonReports
-build_property.ProjectDir = C:\Users\AlexNewport\Source\Repos\EntityFrameworkVerizonReportsTool\ConsoleApp\
+build_property.ProjectDir = C:\Users\AlexNewport\source\repos\EntityFrameworkVerizonReportsTool\ConsoleApp\

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VerizonReports.Models;
+using Microsoft.Extensions.Configuration;
 using VerizonReports.Repository.Entities;
 using VerizonReports.Repository.Models;
 
@@ -15,11 +15,7 @@ public class OmniSiteDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=stagedb2.cprrbksnu9g0.us-east-2.rds.amazonaws.com;" +
-                                    "Initial Catalog=OmniSite;" +
-                                    "User id=admin;" +
-                                    "Password=i81mD51cxZ4JIRFGLJyzPjOfV;" +
-                                    "TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer(new ConfigurationBuilder().AddJsonFile("C:..\\..\\..\\appsettings.json").Build().GetSection("connectionStrings")["omniSiteConnectionString"]);
         base.OnConfiguring(optionsBuilder);
     }
 

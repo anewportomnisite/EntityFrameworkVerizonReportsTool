@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {}
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
+        "projectUniqueName": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
         "projectName": "VerizonReports.Models",
-        "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
+        "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
         "packagesPath": "C:\\Users\\AlexNewport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

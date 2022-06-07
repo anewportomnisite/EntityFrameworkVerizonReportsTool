@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f5b74a0-16e1-47ed-85e0-1f47a2c8587f": {
+      "ProjectGuid": "1f5b74a0-16e1-47ed-85e0-1f47a2c8587f",
+      "DisplayName": "VerizonReports",
+      "ColorIndex": 0
+    },
+    "40000588-a1cd-4e35-ba6b-e09b829d782b": {
+      "ProjectGuid": "40000588-a1cd-4e35-ba6b-e09b829d782b",
+      "DisplayName": "VerizonReports.Repository",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

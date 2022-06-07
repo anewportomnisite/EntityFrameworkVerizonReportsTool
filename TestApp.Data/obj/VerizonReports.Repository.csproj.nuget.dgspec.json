@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj": {}
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj": {
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj",
         "projectName": "VerizonReports.Repository",
-        "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj",
+        "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\VerizonReports.Repository.csproj",
         "packagesPath": "C:\\Users\\AlexNewport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
-                "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj"
+              "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
+                "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj"
               },
-              "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj": {
-                "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj"
+              "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj": {
+                "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj"
               }
             }
           }
@@ -71,6 +71,14 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -95,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
+        "projectUniqueName": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
         "projectName": "VerizonReports.Models",
-        "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
+        "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\VerizonReports.Models.csproj",
         "packagesPath": "C:\\Users\\AlexNewport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\TestApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -153,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj": {
+    "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
         "projectName": "VerizonReports.Logic",
-        "projectPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
+        "projectPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
         "packagesPath": "C:\\Users\\AlexNewport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\obj\\",
+        "outputPath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

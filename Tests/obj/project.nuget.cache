@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NsC7wzL/7ZPAqSShDfEY4H4j0PQALwvSuMRyviiKaaS22U3tELt6zk7PbtOcYyvfvqhGoD8fcXtbkVQcEB93RA==",
+  "dgSpecHash": "S8bDYwhdl36H1qOyEwChTT2F3Wc/zZ3FCUrq/vL80O0Zs/UaH/3ukoI/jBVf72exIpm1E5ysy+r+EPSqnQnS7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AlexNewport\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\AlexNewport\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

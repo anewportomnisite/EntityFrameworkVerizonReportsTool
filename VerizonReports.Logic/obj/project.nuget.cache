@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QiQef1h9CyFY1/v5t9+Y7EZFSjjcFZ4YXAA95YdxO1BjBvQCS6Dp6Tm6ujq0G3BDjZUqXDbaSDDObNr/1RA/gg==",
+  "dgSpecHash": "WkE/ddx5tfYCeamAd9JwMcOg2JgFHuVs6xlrwYQ8W2k8CNbOHj/KWWeO7M8MwHFUFABtlaMeeVc71PHwjffsmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlexNewport\\Source\\Repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
+  "projectFilePath": "C:\\Users\\AlexNewport\\source\\repos\\EntityFrameworkVerizonReportsTool\\VerizonReports.Logic\\VerizonReports.Logic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
