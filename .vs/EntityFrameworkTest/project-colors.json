@@ -10,7 +10,17 @@
       "ProjectGuid": "40000588-a1cd-4e35-ba6b-e09b829d782b",
       "DisplayName": "VerizonReports.Repository",
       "ColorIndex": 1
+    },
+    "d2812768-9eca-4d1d-9071-ae73c232f2ff": {
+      "ProjectGuid": "d2812768-9eca-4d1d-9071-ae73c232f2ff",
+      "DisplayName": "VerizonReports.Logic",
+      "ColorIndex": 2
+    },
+    "a951431d-8ccb-4474-ab3b-e591aa472c25": {
+      "ProjectGuid": "a951431d-8ccb-4474-ab3b-e591aa472c25",
+      "DisplayName": "VerizonReports.Models",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

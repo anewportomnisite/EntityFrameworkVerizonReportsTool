@@ -1,9 +1,6 @@
-﻿using System.Xml.Schema;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
+﻿using Microsoft.EntityFrameworkCore;
 using VerizonReports.Logic.Interfaces;
 using VerizonReports.Logic.OutboundPorts;
-using VerizonReports.Repository.Entities;
 using VerizonReports.Repository.Models;
 
 namespace VerizonReports.Repository.Read;
